@@ -50,6 +50,10 @@ docker build -t my-quagga <<<"FROM ewindisch/quagga"
 docker run --privileged --rm -d my-quagga
 ```
 
+The above creates a new dependent image, but it's also
+possible to fork this repository, make changes and
+build it directly. The choice is yours.
+
 Option #3: Be a pet
 -------------------
 
